@@ -1,7 +1,7 @@
 const bottomButtons = document.querySelector(".bottom-buttons");
 
 function createButtons(){
-    for(let row = 0; row < 21; row++){
+    for(let row = 0; row < 20; row++){
         const numericalButton = document.createElement("div");
         numericalButton.setAttribute("class", "numerical-button");
 
